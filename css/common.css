@@ -28,18 +28,18 @@ button {
   padding: 0;
 }
 
-.item {
+.gallery__item {
   display: flex;
-  list-style: none;
+list-style: none;
     
 }
 
-.item:not(:last-child) {
+.gallery__item:not(:last-child) {
 
   margin-right: 15px;
 }
 
-.img {
+.gallery__img {
   display: block;
   width: 100%;
   height: auto;
