@@ -1,6 +1,6 @@
 const categoriesEl = document.querySelector('ul');
 const numberCategoriesEl = categoriesEl.children.length;
-console.log(`Number of categories:`, numberCategoriesEl);
+console.log(`Number of categories: ${numberCategoriesEl}`);
 
 
 const itemsEl = document.querySelectorAll('.item');
