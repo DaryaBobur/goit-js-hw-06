@@ -30,6 +30,7 @@ function createBoxes() {
 
 function destroyBoxes() {
   boxesEl.textContent = '';
+  firstSizeDiv = 20;
 }
 
 function getRandomHexColor() {
