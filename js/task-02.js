@@ -12,5 +12,7 @@ const ingredients = [
   const items = document.createElement('li');
   items.textContent = ingredient;
   items.classList.add('item');
-  listEl.appendChild(items);
+  listEl.append(items);
+
 })
+
