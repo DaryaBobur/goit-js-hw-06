@@ -2,7 +2,7 @@ let counterValue = 0;
 
 const btnDecrementEl = document.querySelector('[data-action="decrement"]');
 const btnIncrementEl = document.querySelector('[data-action="increment"]');
-let valueEl = document.querySelector('#value');
+const valueEl = document.querySelector('#value');
 
 btnDecrementEl.addEventListener('click', () =>  {
     counterValue -= 1;
